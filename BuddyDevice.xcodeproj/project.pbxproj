@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B0A93981DF0A26F00113954 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A93971DF0A26F00113954 /* Podfile */; };
+		7B0A939A1DF0A30300113954 /* ChirpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0A93991DF0A30300113954 /* ChirpSDK.framework */; };
+		7B0A939D1DF0AA5F00113954 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0A939C1DF0AA5F00113954 /* libz.tbd */; };
+		7B9333AC1DF9CA7B00BD2425 /* DiagnosticeServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333A91DF9CA7B00BD2425 /* DiagnosticeServices.m */; };
+		7B9333AD1DF9CA7B00BD2425 /* ServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333AB1DF9CA7B00BD2425 /* ServicesManager.m */; };
+		7B9333B61DF9CA9800BD2425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333AF1DF9CA9800BD2425 /* AppDelegate.m */; };
+		7B9333B71DF9CA9800BD2425 /* BuddyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333B11DF9CA9800BD2425 /* BuddyViewController.m */; };
+		7B9333B81DF9CA9800BD2425 /* IPDFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333B31DF9CA9800BD2425 /* IPDFCameraViewController.m */; };
+		7B9333B91DF9CA9800BD2425 /* QRCodeMetadataDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333B51DF9CA9800BD2425 /* QRCodeMetadataDelegate.m */; };
+		7B9333BB1DF9CAA400BD2425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9333BA1DF9CAA400BD2425 /* Images.xcassets */; };
+		7B9333C01DF9CABD00BD2425 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9333BC1DF9CABD00BD2425 /* LaunchScreen.xib */; };
+		7B9333C11DF9CABD00BD2425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9333BE1DF9CABD00BD2425 /* Main.storyboard */; };
+		7B9333C41DF9CAFF00BD2425 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B9333C21DF9CAFF00BD2425 /* Info.plist */; };
+		7B9333C51DF9CAFF00BD2425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9333C31DF9CAFF00BD2425 /* main.m */; };
+		DD3A69337906670EB6F87924 /* libPods-BuddyDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE264B09C8FB0558EC6156 /* libPods-BuddyDevice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22F8A0091A6279030099DC69 /* BuddyDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EE264B09C8FB0558EC6156 /* libPods-BuddyDevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyDevice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF1FFB1BEDB79E1B8F5033 /* Pods-BuddyDevice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyDevice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyDevice/Pods-BuddyDevice.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0A93971DF0A26F00113954 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B0A93991DF0A30300113954 /* ChirpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChirpSDK.framework; sourceTree = SOURCE_ROOT; };
+		7B0A939C1DF0AA5F00113954 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7B9333A81DF9CA7B00BD2425 /* DiagnosticeServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiagnosticeServices.h; path = BuddyScreenApp/DiagnosticeServices.h; sourceTree = SOURCE_ROOT; };
+		7B9333A91DF9CA7B00BD2425 /* DiagnosticeServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiagnosticeServices.m; path = BuddyScreenApp/DiagnosticeServices.m; sourceTree = SOURCE_ROOT; };
+		7B9333AA1DF9CA7B00BD2425 /* ServicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicesManager.h; path = BuddyScreenApp/ServicesManager.h; sourceTree = SOURCE_ROOT; };
+		7B9333AB1DF9CA7B00BD2425 /* ServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesManager.m; path = BuddyScreenApp/ServicesManager.m; sourceTree = SOURCE_ROOT; };
+		7B9333AE1DF9CA9800BD2425 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BuddyScreenApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7B9333AF1DF9CA9800BD2425 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BuddyScreenApp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7B9333B01DF9CA9800BD2425 /* BuddyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuddyViewController.h; path = BuddyScreenApp/BuddyViewController.h; sourceTree = SOURCE_ROOT; };
+		7B9333B11DF9CA9800BD2425 /* BuddyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuddyViewController.m; path = BuddyScreenApp/BuddyViewController.m; sourceTree = SOURCE_ROOT; };
+		7B9333B21DF9CA9800BD2425 /* IPDFCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPDFCameraViewController.h; path = BuddyScreenApp/IPDFCameraViewController.h; sourceTree = SOURCE_ROOT; };
+		7B9333B31DF9CA9800BD2425 /* IPDFCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPDFCameraViewController.m; path = BuddyScreenApp/IPDFCameraViewController.m; sourceTree = SOURCE_ROOT; };
+		7B9333B41DF9CA9800BD2425 /* QRCodeMetadataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeMetadataDelegate.h; path = BuddyScreenApp/QRCodeMetadataDelegate.h; sourceTree = SOURCE_ROOT; };
+		7B9333B51DF9CA9800BD2425 /* QRCodeMetadataDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCodeMetadataDelegate.m; path = BuddyScreenApp/QRCodeMetadataDelegate.m; sourceTree = SOURCE_ROOT; };
+		7B9333BA1DF9CAA400BD2425 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BuddyScreenApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		7B9333BD1DF9CABD00BD2425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = BuddyScreenApp/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		7B9333BF1DF9CABD00BD2425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BuddyScreenApp/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		7B9333C21DF9CAFF00BD2425 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BuddyScreenApp/Info.plist; sourceTree = SOURCE_ROOT; };
+		7B9333C31DF9CAFF00BD2425 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BuddyScreenApp/main.m; sourceTree = SOURCE_ROOT; };
+		D5619B3733B9279B2B5915E4 /* Pods-BuddyDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyDevice.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyDevice/Pods-BuddyDevice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F8A0061A6279030099DC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0A939D1DF0AA5F00113954 /* libz.tbd in Frameworks */,
+				7B0A939A1DF0A30300113954 /* ChirpSDK.framework in Frameworks */,
+				DD3A69337906670EB6F87924 /* libPods-BuddyDevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F8A0001A6279030099DC69 = {
+			isa = PBXGroup;
+			children = (
+				7B0A93971DF0A26F00113954 /* Podfile */,
+				22F8A00B1A6279030099DC69 /* Buddy Device */,
+				22F8A00A1A6279030099DC69 /* Products */,
+				7B0A939B1DF0AA5F00113954 /* Frameworks */,
+				B487F71504E03F6BDCBFA465 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		22F8A00A1A6279030099DC69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F8A0091A6279030099DC69 /* BuddyDevice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F8A00B1A6279030099DC69 /* Buddy Device */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A93A41DF0B79E00113954 /* network */,
+				7B9333AE1DF9CA9800BD2425 /* AppDelegate.h */,
+				7B9333AF1DF9CA9800BD2425 /* AppDelegate.m */,
+				7B9333B01DF9CA9800BD2425 /* BuddyViewController.h */,
+				7B9333B11DF9CA9800BD2425 /* BuddyViewController.m */,
+				7B9333B21DF9CA9800BD2425 /* IPDFCameraViewController.h */,
+				7B9333B31DF9CA9800BD2425 /* IPDFCameraViewController.m */,
+				7B9333B41DF9CA9800BD2425 /* QRCodeMetadataDelegate.h */,
+				7B9333B51DF9CA9800BD2425 /* QRCodeMetadataDelegate.m */,
+				7B9333BA1DF9CAA400BD2425 /* Images.xcassets */,
+				7B9333BC1DF9CABD00BD2425 /* LaunchScreen.xib */,
+				7B9333BE1DF9CABD00BD2425 /* Main.storyboard */,
+				7B0A93991DF0A30300113954 /* ChirpSDK.framework */,
+				22F8A00C1A6279030099DC69 /* Supporting Files */,
+			);
+			name = "Buddy Device";
+			path = IPDFCameraViewController;
+			sourceTree = "<group>";
+		};
+		22F8A00C1A6279030099DC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B9333C21DF9CAFF00BD2425 /* Info.plist */,
+				7B9333C31DF9CAFF00BD2425 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B0A939B1DF0AA5F00113954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A939C1DF0AA5F00113954 /* libz.tbd */,
+				39EE264B09C8FB0558EC6156 /* libPods-BuddyDevice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B0A93A41DF0B79E00113954 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				7B9333A81DF9CA7B00BD2425 /* DiagnosticeServices.h */,
+				7B9333A91DF9CA7B00BD2425 /* DiagnosticeServices.m */,
+				7B9333AA1DF9CA7B00BD2425 /* ServicesManager.h */,
+				7B9333AB1DF9CA7B00BD2425 /* ServicesManager.m */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		B487F71504E03F6BDCBFA465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72FF1FFB1BEDB79E1B8F5033 /* Pods-BuddyDevice.debug.xcconfig */,
+				D5619B3733B9279B2B5915E4 /* Pods-BuddyDevice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F8A0081A6279030099DC69 /* BuddyDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F8A02C1A6279040099DC69 /* Build configuration list for PBXNativeTarget "BuddyDevice" */;
+			buildPhases = (
+				8702E0A43A1D6AF289D03E1D /* [CP] Check Pods Manifest.lock */,
+				22F8A0051A6279030099DC69 /* Sources */,
+				22F8A0061A6279030099DC69 /* Frameworks */,
+				22F8A0071A6279030099DC69 /* Resources */,
+				77F52A6E3729D4FBF283BC58 /* [CP] Embed Pods Frameworks */,
+				F59CC260313EC3B7D494A6D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyDevice;
+			productName = IPDFCameraViewController;
+			productReference = 22F8A0091A6279030099DC69 /* BuddyDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F8A0011A6279030099DC69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Maximilian Mackh";
+				TargetAttributes = {
+					22F8A0081A6279030099DC69 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = H5A43L6864;
+					};
+				};
+			};
+			buildConfigurationList = 22F8A0041A6279030099DC69 /* Build configuration list for PBXProject "BuddyDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F8A0001A6279030099DC69;
+			productRefGroup = 22F8A00A1A6279030099DC69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F8A0081A6279030099DC69 /* BuddyDevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F8A0071A6279030099DC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9333BB1DF9CAA400BD2425 /* Images.xcassets in Resources */,
+				7B9333C01DF9CABD00BD2425 /* LaunchScreen.xib in Resources */,
+				7B0A93981DF0A26F00113954 /* Podfile in Resources */,
+				7B9333C41DF9CAFF00BD2425 /* Info.plist in Resources */,
+				7B9333C11DF9CABD00BD2425 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77F52A6E3729D4FBF283BC58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyDevice/Pods-BuddyDevice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8702E0A43A1D6AF289D03E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F59CC260313EC3B7D494A6D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyDevice/Pods-BuddyDevice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F8A0051A6279030099DC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9333B81DF9CA9800BD2425 /* IPDFCameraViewController.m in Sources */,
+				7B9333B71DF9CA9800BD2425 /* BuddyViewController.m in Sources */,
+				7B9333AD1DF9CA7B00BD2425 /* ServicesManager.m in Sources */,
+				7B9333B61DF9CA9800BD2425 /* AppDelegate.m in Sources */,
+				7B9333AC1DF9CA7B00BD2425 /* DiagnosticeServices.m in Sources */,
+				7B9333C51DF9CAFF00BD2425 /* main.m in Sources */,
+				7B9333B91DF9CA9800BD2425 /* QRCodeMetadataDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B9333BC1DF9CABD00BD2425 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B9333BD1DF9CABD00BD2425 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7B9333BE1DF9CABD00BD2425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B9333BF1DF9CABD00BD2425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F8A02A1A6279040099DC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22F8A02B1A6279040099DC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F8A02D1A6279040099DC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FF1FFB1BEDB79E1B8F5033 /* Pods-BuddyDevice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H5A43L6864;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BuddyScreenApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mackh.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BuddyDevice;
+			};
+			name = Debug;
+		};
+		22F8A02E1A6279040099DC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5619B3733B9279B2B5915E4 /* Pods-BuddyDevice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H5A43L6864;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BuddyScreenApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mackh.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BuddyDevice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F8A0041A6279030099DC69 /* Build configuration list for PBXProject "BuddyDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F8A02A1A6279040099DC69 /* Debug */,
+				22F8A02B1A6279040099DC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F8A02C1A6279040099DC69 /* Build configuration list for PBXNativeTarget "BuddyDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F8A02D1A6279040099DC69 /* Debug */,
+				22F8A02E1A6279040099DC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F8A0011A6279030099DC69 /* Project object */;
+}
